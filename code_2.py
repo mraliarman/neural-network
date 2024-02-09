@@ -128,7 +128,7 @@ y_test_tensor = torch.LongTensor(y_test_nn)
 
 
 
-# تعریف مدل شبکه عصبی چندلایه
+# تعریف مدل شبکه عصبی چندلایه 
 class MLP(nn.Module):
     def __init__(self):
         super(MLP, self).__init__()
